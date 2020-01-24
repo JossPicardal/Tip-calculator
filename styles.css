@@ -2,3 +2,22 @@ body{
   background-image: url('https://media.giphy.com/media/EDB6cBvpZNeGQ/giphy.gif');
   background-size: cover;
 }
+
+#container{
+  height: 522px;
+  width: 600px;
+  background-color: #d3d3d3;
+  margin-left: 325px;
+  margin-top: 200px;
+}
+
+#title{
+  
+}
+
+.service{
+  margin-left: 225px;
+}
+
+
+

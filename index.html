@@ -4,20 +4,41 @@
   <title> Tip Calculator </title>
   <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
-<body>
-  <div id="container">
-    <div id="title">
-    <div class="service">
-      <select>
-        <option value="0">Never coming back</option>
-        <option value="10">Terrible</option>
-        <option value="13">Pretty Bad</option>
-        <option value="15">Mediocre</option>
-        <option value="17">Pretty good</option>
-        <option value="20">Excellent</option>
-      </select>
-    </div>  
+  <body>
+    <form>
+      <div id="container">
+
+         <p>Input Bill Amount <p>
+            $ <input id="bill_amt" type="text" placeholder="Bill Amount">
+
+            <p>How did you like the service? <p>
+                <select id="Quality">
+              <option disabled selected value="0">-- Rate of service --</option>
+              <option value="0.2">20&#37; &#45; Execllent Service</option>
+              <option value="0.17">17&#37; &#45; Pretty Good</option>
+              <option value="0.15">15&#37; &#45; Mediocre</option>
+              <option value="0.13">13&#37; &#45; Pretty Bad</option>
+              <option value="0.1">10&#37; &#45; Absoulutly Terrible</option>
+              <option value="0">0&#37; &#45; Never Coming Back</option>
+          </select>
+
+      </form>
+      <p>How many people are sharing the bill?</p>
+      <input id="people" type="text" placeholder="Number of People"> people
+      <button type="button" id="calculate">Calculate!</button>
+
+    </div>
+    <!--calculator end-->
+    <div id="totalTip">
+      <sup>$</sup><span id="tip">0.00</span>
+      <small id="each">each</small>
+    </div>
+    <!--totalTip end-->
+
   </div>
+    </div>
+  <form>
+  <script type="text/javascript" src="app.js"></script>
       
 
 </body>

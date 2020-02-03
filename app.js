@@ -1,12 +1,12 @@
 //Calculate Tip
 function calculateTip() {
   var bill_Amt = document.getElementById("bill_Amt").value;
-  var Quality = document.getElementById("Quality").value;
+  var qual = document.getElementById("qual").value;
   var people = document.getElementById("people").value;
 
   //validate input
-  if (bill_Amt === "" || Quality == 0) {
-    alert("Please enter values");
+  if (bill_Amt === "" || qual == 0) {
+    alert("PUT SOMETHING IN YA DIMWIT!!");
     return;
   }
   //Check to see if this input is empty or less than or equal to 1
@@ -18,7 +18,7 @@ function calculateTip() {
   }
 
   //Calculate tip
-  var total = (bill_Amt * Quality) / people;
+  var total = (bill_Amt * qual) / people;
   //round to two decimal places
   total = Math.round(total * 100) / 100;
   //next line allows us to always have two digits after decimal point

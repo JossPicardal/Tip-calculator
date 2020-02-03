@@ -39,7 +39,6 @@ input {
 
 #bill_Amt {
   font-size: 14px;
-  /*color: #2980b9;*/
   color: #red;
   background-color: #f7f7f7;
   width: 60%;
@@ -65,9 +64,9 @@ input {
   display: inline;
 }
 
-#Quality {
+#qual {
   padding: 13px 13px 20px 20px;
-  margin-left: 20px;
+  margin-right: ;
   font-size: 25px;
 }
 

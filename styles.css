@@ -3,15 +3,6 @@ body{
   background-size: cover;
 }
 
-\body {
-  font-family: Roboto;
-  background: #8E0E00;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #8E0E00, #1F1C18);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #8E0E00, #1F1C18);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
 
 #container {
   height: 525px;
@@ -46,7 +37,7 @@ input {
   padding-left: 20px;
 }
 
-#bill_amt {
+#bill_Amt {
   font-size: 14px;
   /*color: #2980b9;*/
   color: #red;
@@ -55,13 +46,13 @@ input {
   padding: 5px 5px 8px 8px;
 }
 
-#bill_amt:focus {
+#bill_Amt:focus {
   background: #fff;
   border: 3px solid #2980b9;
   outline: none;
 }
 
-#peopleamt {
+#people {
   width: 60%;
   padding: 5px 5px 8px 8px;
   margin-left: 20px;
@@ -74,7 +65,7 @@ input {
   display: inline;
 }
 
-#serviceQual {
+#Quality {
   padding: 13px 13px 20px 20px;
   margin-left: 20px;
   font-size: 25px;

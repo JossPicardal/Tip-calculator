@@ -5,9 +5,12 @@ function calculateTip() {
   var people = document.getElementById("people").value;
 
   //validate input
-  if (bill_Amt === "" || qual == 0) {
+  if (bill_Amt === "" ) {
     alert("PUT SOMETHING IN YA DIMWIT!!");
     return;
+  }else (qual == 0){
+    alert("If the service was that terrible WHY ARE YOU GIVING THEM A TIP")
+    return
   }
   //Check to see if this input is empty or less than or equal to 1
   if (people === "" || people <= 1) {

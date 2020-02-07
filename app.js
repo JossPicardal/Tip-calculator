@@ -10,8 +10,19 @@ function calculateTip() {
     alert("PUT SOMETHING IN YA DIMWIT!!");
     return;
   }
+  if (people === "Im by myself"){
+    alert("Ho you kinna lonely eh? Lemme guess she devorced you and took the kids.")
+    location.href = 'https://s3.amazonaws.com/media.eremedia.com/uploads/2015/01/15173846/Eharmony-Dating.gif';
+    return
+  }
   if (qual == 0){
     alert("If the service was that terrible WHY ARE YOU GIVING THEM A TIP")
+    return
+  }
+  if (people === "Im here with my comrades"){
+    alert("That is good have you freshened up your memory on our glorious manifesto? Dont worry I will send you there right now.")
+    location.href = 'https://www.marxists.org/archive/marx/works/download/pdf/Manifesto.pdf';
+    document.body.style.backgroundImage = "url('https://media1.tenor.com/images/d5f11f7c2a19e9096910ee541e55e6d8/tenor.gif?itemid=15212935')";
     return
   }
   if (bill_Amt === "uwu" ) {

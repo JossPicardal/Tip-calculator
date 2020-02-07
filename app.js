@@ -3,6 +3,7 @@ function calculateTip() {
   var bill_Amt = document.getElementById("bill_Amt").value;
   var qual = document.getElementById("qual").value;
   var people = document.getElementById("people").value;
+  var myMusic= document.getElementById("https://www.marxists.org/history/ussr/sounds/mp3/soviet-anthem.mp3");
 
   //easter eggs
   if (bill_Amt === "" ||people == 0) {
@@ -20,12 +21,16 @@ function calculateTip() {
   }
   if (bill_Amt === "420"){
     document.body.style.backgroundImage = "url('https://media0.giphy.com/media/WIQBk5fKfHvyM/source.gif')";
+    return
   }
 
   if (bill_Amt === "563923" ) {
     alert("COMRADE THE TIME HAS COME PREPARE FOR WAR")
-    document.getElementById('')
+    document.body.style.backgroundImage = "url('https://i.gifer.com/1p4L.gif')";
+    myMusic.play();
+    return
   }
+  
 
   //Check to see if this input is empty or less than or equal to 1
   if (people === "" || people <= 1) {
@@ -54,5 +59,5 @@ document.getElementById("each").style.display = "none";
 //click to call function
 document.getElementById("calculate").onclick = function() {
   calculateTip();
-
+  myMusic.play();
 };

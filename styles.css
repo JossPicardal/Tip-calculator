@@ -14,7 +14,7 @@ body{
 }
 
 h1 {
-  background: #1F030C;
+  background: #8b0000;
   color: white;
   margin: 0;
   padding: 10px 100px;
@@ -95,8 +95,10 @@ button:active {
 
 #totalTip {
   font-size: 30px;
-  margin-top: 5px;
+  margin-top: -200px;
   text-align: center;
+  color: red;
+  margin-bottom: -100px;
 }
 
 #totalTip:before {
@@ -109,7 +111,7 @@ button:active {
 
 #totalTip sup {
   font-size: 20px;
-  top: -18px;
+  top: 18px;
 }
 
 #totalTip small {

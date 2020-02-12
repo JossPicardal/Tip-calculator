@@ -11,7 +11,7 @@ function calculateTip() {
     return;
   }
   if (people === "Im by myself"){
-    alert("Ho you kinna lonely eh? Lemme guess she devorced you and took the kids.")
+    alert("Ho you kinna lonely eh? Lemme guess he/she devorced you and took the kids.")
     location.href = 'https://s3.amazonaws.com/media.eremedia.com/uploads/2015/01/15173846/Eharmony-Dating.gif';
     return
   }
